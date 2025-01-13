@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Documents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Document Id="137834474" Category="DWDOCUMENT" Name="294" Ruid="6D57F165-6DD8-405D-838A-6EC4D07E5F95" Path="" Creator="SYSTEM" Modificator="SYSTEM" CreationTime="1998-12-01T00:00:00" ModificationTime="2020-05-06T16:28:59.643">
+    <Comments />
+    <IndexData>
+      <IndexDataItem FieldName="DM_ID">137834477</IndexDataItem>
+      <IndexDataItem FieldName="DOCUMENT_ID">137834474</IndexDataItem>
+      <IndexDataItem FieldName="DWDOCID">294</IndexDataItem>
+      <IndexDataItem FieldName="DWSTOREDATE">Dec  1 1998 12:00AM</IndexDataItem>
+      <IndexDataItem FieldName="FIRMA">C.HAUSHAHN</IndexDataItem>
+      <IndexDataItem FieldName="STANDORT">EA-LAGER,STUTTGART 3</IndexDataItem>
+      <IndexDataItem FieldName="ANLAGENNR">896030</IndexDataItem>
+      <IndexDataItem FieldName="ERSTAUFTRAGSNR" />
+      <IndexDataItem FieldName="AUFTRAGSNR">896030-31</IndexDataItem>
+      <IndexDataItem FieldName="GEWERK">RBG VISTORE</IndexDataItem>
+      <IndexDataItem FieldName="NEUANLAGEUMBAU">N</IndexDataItem>
+      <IndexDataItem FieldName="ART">X</IndexDataItem>
+      <IndexDataItem FieldName="ORDNERART">RBG MECHANIK</IndexDataItem>
+      <IndexDataItem FieldName="REGISTER">89/6030-31</IndexDataItem>
+      <IndexDataItem FieldName="GERTENR">~896030~896031~</IndexDataItem>
+      <IndexDataItem FieldName="BEMERKUNG" />
+      <IndexDataItem FieldName="ALFACODE" />
+      <IndexDataItem FieldName="$DISPLAYNAME">294</IndexDataItem>
+    </IndexData>
+    <Versions>
+      <Version Id="137834475" Ruid="065AC4B3-3BC3-44FF-9663-730EB2565F52" Label="1.0" Comment="Dokument erstellt." Creator="SYSTEM" CreationTime="2020-05-06T16:28:59.643">
+        <Comments />
+        <Renditions>
+          <Rendition Type="Original" Path="\137834474\0004.08372FEA\0005.08372FEA.08372FEB.pdf" />
+        </Renditions>
+      </Version>
+    </Versions>
+  </Document>
+</Documents>

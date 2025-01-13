@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Documents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Document Id="137834554" Category="DWDOCUMENT" Name="753" Ruid="82C75162-3773-4028-9A7A-D6A28DC68BD5" Path="" Creator="SYSTEM" Modificator="SYSTEM" CreationTime="1998-12-01T00:00:00" ModificationTime="2020-05-06T16:29:10.823">
+    <Comments />
+    <IndexData>
+      <IndexDataItem FieldName="DM_ID">137834557</IndexDataItem>
+      <IndexDataItem FieldName="DOCUMENT_ID">137834554</IndexDataItem>
+      <IndexDataItem FieldName="DWDOCID">753</IndexDataItem>
+      <IndexDataItem FieldName="DWSTOREDATE">Dec  1 1998 12:00AM</IndexDataItem>
+      <IndexDataItem FieldName="FIRMA">ECKSTEIN FARBEN</IndexDataItem>
+      <IndexDataItem FieldName="STANDORT">HANNOVER</IndexDataItem>
+      <IndexDataItem FieldName="ANLAGENNR">776246</IndexDataItem>
+      <IndexDataItem FieldName="ERSTAUFTRAGSNR">776246</IndexDataItem>
+      <IndexDataItem FieldName="AUFTRAGSNR">896858</IndexDataItem>
+      <IndexDataItem FieldName="GEWERK">RBG</IndexDataItem>
+      <IndexDataItem FieldName="NEUANLAGEUMBAU">U</IndexDataItem>
+      <IndexDataItem FieldName="ART">X</IndexDataItem>
+      <IndexDataItem FieldName="ORDNERART">RBG MECHANIK</IndexDataItem>
+      <IndexDataItem FieldName="REGISTER">89/6034-36</IndexDataItem>
+      <IndexDataItem FieldName="GERTENR">~776246~776247~776248~</IndexDataItem>
+      <IndexDataItem FieldName="BEMERKUNG" />
+      <IndexDataItem FieldName="ALFACODE">ECKSTEIN01</IndexDataItem>
+      <IndexDataItem FieldName="$DISPLAYNAME">753</IndexDataItem>
+    </IndexData>
+    <Versions>
+      <Version Id="137834555" Ruid="88B36D82-AA80-4B39-B05D-7C547FD1CD68" Label="1.0" Comment="Dokument erstellt." Creator="SYSTEM" CreationTime="2020-05-06T16:29:10.823">
+        <Comments />
+        <Renditions>
+          <Rendition Type="Original" Path="\137834554\0004.0837303A\0005.0837303A.0837303B.pdf" />
+        </Renditions>
+      </Version>
+    </Versions>
+  </Document>
+</Documents>

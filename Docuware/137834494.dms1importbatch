@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Documents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Document Id="137834494" Category="DWDOCUMENT" Name="403" Ruid="94A4519B-A4F2-4810-A27B-8AAC7F11AC9B" Path="" Creator="SYSTEM" Modificator="SYSTEM" CreationTime="1998-12-01T00:00:00" ModificationTime="2020-05-06T16:29:01.957">
+    <Comments />
+    <IndexData>
+      <IndexDataItem FieldName="DM_ID">137834497</IndexDataItem>
+      <IndexDataItem FieldName="DOCUMENT_ID">137834494</IndexDataItem>
+      <IndexDataItem FieldName="DWDOCID">403</IndexDataItem>
+      <IndexDataItem FieldName="DWSTOREDATE">Dec  1 1998 12:00AM</IndexDataItem>
+      <IndexDataItem FieldName="FIRMA">LORD BEKLEIDUNGSWERKE BRINKMANN</IndexDataItem>
+      <IndexDataItem FieldName="STANDORT">HERFORD</IndexDataItem>
+      <IndexDataItem FieldName="ANLAGENNR" />
+      <IndexDataItem FieldName="ERSTAUFTRAGSNR">896851</IndexDataItem>
+      <IndexDataItem FieldName="AUFTRAGSNR" />
+      <IndexDataItem FieldName="GEWERK">RBG VIASTORE</IndexDataItem>
+      <IndexDataItem FieldName="NEUANLAGEUMBAU" />
+      <IndexDataItem FieldName="ART">M</IndexDataItem>
+      <IndexDataItem FieldName="ORDNERART" />
+      <IndexDataItem FieldName="REGISTER">89/6037-39</IndexDataItem>
+      <IndexDataItem FieldName="GERTENR">~896037~896038~896039~</IndexDataItem>
+      <IndexDataItem FieldName="BEMERKUNG" />
+      <IndexDataItem FieldName="ALFACODE" />
+      <IndexDataItem FieldName="$DISPLAYNAME">403</IndexDataItem>
+    </IndexData>
+    <Versions>
+      <Version Id="137834495" Ruid="2DADAC56-38E2-49EF-A5AA-C98F939EA3C5" Label="1.0" Comment="Dokument erstellt." Creator="SYSTEM" CreationTime="2020-05-06T16:29:01.957">
+        <Comments />
+        <Renditions>
+          <Rendition Type="Original" Path="\137834494\0004.08372FFE\0005.08372FFE.08372FFF.pdf" />
+        </Renditions>
+      </Version>
+    </Versions>
+  </Document>
+</Documents>

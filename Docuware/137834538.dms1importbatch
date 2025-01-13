@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Documents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Document Id="137834538" Category="DWDOCUMENT" Name="657" Ruid="4D9420BE-9364-43CA-8FAE-E20499EC6727" Path="" Creator="SYSTEM" Modificator="SYSTEM" CreationTime="1998-12-01T00:00:00" ModificationTime="2020-05-06T16:29:07.897">
+    <Comments />
+    <IndexData>
+      <IndexDataItem FieldName="DM_ID">137834541</IndexDataItem>
+      <IndexDataItem FieldName="DOCUMENT_ID">137834538</IndexDataItem>
+      <IndexDataItem FieldName="DWDOCID">657</IndexDataItem>
+      <IndexDataItem FieldName="DWSTOREDATE">Dec  1 1998 12:00AM</IndexDataItem>
+      <IndexDataItem FieldName="FIRMA">ROBERT BOSCH GMBH</IndexDataItem>
+      <IndexDataItem FieldName="STANDORT">BERLIN-SPANDAU</IndexDataItem>
+      <IndexDataItem FieldName="ANLAGENNR" />
+      <IndexDataItem FieldName="ERSTAUFTRAGSNR" />
+      <IndexDataItem FieldName="AUFTRAGSNR" />
+      <IndexDataItem FieldName="GEWERK">RBG II 500VS</IndexDataItem>
+      <IndexDataItem FieldName="NEUANLAGEUMBAU" />
+      <IndexDataItem FieldName="ART">M</IndexDataItem>
+      <IndexDataItem FieldName="ORDNERART" />
+      <IndexDataItem FieldName="REGISTER" />
+      <IndexDataItem FieldName="GERTENR">~896033~</IndexDataItem>
+      <IndexDataItem FieldName="BEMERKUNG" />
+      <IndexDataItem FieldName="ALFACODE" />
+      <IndexDataItem FieldName="$DISPLAYNAME">657</IndexDataItem>
+    </IndexData>
+    <Versions>
+      <Version Id="137834539" Ruid="9191476D-88F9-44EC-AC2C-28859A72F948" Label="1.0" Comment="Dokument erstellt." Creator="SYSTEM" CreationTime="2020-05-06T16:29:07.897">
+        <Comments />
+        <Renditions>
+          <Rendition Type="Original" Path="\137834538\0004.0837302A\0005.0837302A.0837302B.pdf" />
+        </Renditions>
+      </Version>
+    </Versions>
+  </Document>
+</Documents>

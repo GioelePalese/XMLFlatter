@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Documents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Document Id="137834566" Category="DWDOCUMENT" Name="799" Ruid="67DB0E4C-BBA3-445B-A5CE-313ADEABDA0C" Path="" Creator="SYSTEM" Modificator="SYSTEM" CreationTime="1998-12-01T00:00:00" ModificationTime="2020-05-06T16:29:11.99">
+    <Comments />
+    <IndexData>
+      <IndexDataItem FieldName="DM_ID">137834569</IndexDataItem>
+      <IndexDataItem FieldName="DOCUMENT_ID">137834566</IndexDataItem>
+      <IndexDataItem FieldName="DWDOCID">799</IndexDataItem>
+      <IndexDataItem FieldName="DWSTOREDATE">Dec  1 1998 12:00AM</IndexDataItem>
+      <IndexDataItem FieldName="FIRMA">WIPPERMANN</IndexDataItem>
+      <IndexDataItem FieldName="STANDORT">HAGEN</IndexDataItem>
+      <IndexDataItem FieldName="ANLAGENNR" />
+      <IndexDataItem FieldName="ERSTAUFTRAGSNR">896862</IndexDataItem>
+      <IndexDataItem FieldName="AUFTRAGSNR" />
+      <IndexDataItem FieldName="GEWERK">RBG I 300A</IndexDataItem>
+      <IndexDataItem FieldName="NEUANLAGEUMBAU" />
+      <IndexDataItem FieldName="ART">M</IndexDataItem>
+      <IndexDataItem FieldName="ORDNERART" />
+      <IndexDataItem FieldName="REGISTER">89/6040</IndexDataItem>
+      <IndexDataItem FieldName="GERTENR">~896040~896041~896042~</IndexDataItem>
+      <IndexDataItem FieldName="BEMERKUNG" />
+      <IndexDataItem FieldName="ALFACODE" />
+      <IndexDataItem FieldName="$DISPLAYNAME">799</IndexDataItem>
+    </IndexData>
+    <Versions>
+      <Version Id="137834567" Ruid="874762EB-CEF7-4D7E-90BA-364715AFDAD4" Label="1.0" Comment="Dokument erstellt." Creator="SYSTEM" CreationTime="2020-05-06T16:29:11.99">
+        <Comments />
+        <Renditions>
+          <Rendition Type="Original" Path="\137834566\0004.08373046\0005.08373046.08373047.pdf" />
+        </Renditions>
+      </Version>
+    </Versions>
+  </Document>
+</Documents>
