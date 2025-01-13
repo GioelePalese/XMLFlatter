@@ -5,13 +5,15 @@ import csv
 
 # Define all arguments available
 parser = argparse.ArgumentParser()
-parser.add_argument("-fp", "--folder_path", help="The folder containing the XML files.", required=True)
-parser.add_argument("-op", "--output_file", help="The CSV file where all data will be stored.", required=True)
+parser.add_argument("-f", "--folder_path", help="The folder containing the XML files.", required=True)
+parser.add_argument("-o", "--output_file", help="The CSV file where all data will be stored.", required=True)
+parser.add_argument("-e", "--extension", help="Specify the extension of the files that need to be flattened.")
 args = parser.parse_args()
 
 # Get all arguments
 folder_path = args.folder_path
 output_file = args.output_file
+extension = args.extension
 
 # Check if all required arguments were given
 if folder_path is None or output_file is None:
@@ -23,7 +25,7 @@ if not output_file.endswith('.csv'):
     output_file += '.csv'
 
 # Get all files that end with .dms1importbatch from the folder given
-files = [f for f in os.listdir(folder_path) if f.endswith('.dms1importbatch')]
+files = [f for f in os.listdir(folder_path) if extension is None or f.endswith(extension)]
 
 # Initialize the rows and headers lists
 rows = []
