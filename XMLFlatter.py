@@ -46,8 +46,21 @@ for file_name in files:
         row[field_name] = field_value
 
         if field_name not in headers:
-            headers.append(item.attrib['FieldName'])
-        
+            headers.append(field_name)
+
+    if 'FILENAME' not in headers:
+        headers.append('FILENAME')
+
+    if len(root[0][2]) == 1 :
+        if len(root[0][2][0][1]) == 1:
+            row['FILENAME'] = root[0][2][0][1][0].attrib['Path']
+
+        else:
+            print(file_name, ': Renditions are either 0 or too many.')
+
+    else:
+        print(file_name, ': Versions are either 0 or too many.')
+
     rows.append(row)
 
 # Write all data collected in the given CSV file
