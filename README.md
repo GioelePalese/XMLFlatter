@@ -4,10 +4,9 @@
 This project is used for flattening a folder full of XML files into a single csv file with all IndexDataItems saved in their proper columns.
 
 ## Usage
-In the command line where the project lives:
 
 ```batch
-py .\XMLFlatter.py --folder_path [Path of the folder full of XML files] --output_path [Path of the CSV file that will be generated with all the data saved] 
+py .\XMLFlatter.py
 ```
 
 ### Flags
