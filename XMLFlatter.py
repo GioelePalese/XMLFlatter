@@ -24,7 +24,7 @@ if folder_path is None or output_file is None:
 if not output_file.endswith('.csv'):
     output_file += '.csv'
 
-# Get all files that end with .dms1importbatch from the folder given
+# Get all files that end with the provided extension from the folder given
 files = [f for f in os.listdir(folder_path) if extension is None or f.endswith(extension)]
 
 # Initialize the rows and headers lists
