@@ -3,6 +3,7 @@ import warnings
 import argparse
 import xml.etree.ElementTree as ET
 import csv
+from tqdm import tqdm # type: ignore
 
 # Define all arguments available
 parser = argparse.ArgumentParser()
@@ -41,7 +42,7 @@ rows = []
 headers = []
 
 # Start going through the files
-for file_name in files:
+for file_name in tqdm(files, desc="Processing files", unit="file"):
     # Read file
     tree = ET.parse(os.path.join(folder_path, file_name))
     root = tree.getroot()
