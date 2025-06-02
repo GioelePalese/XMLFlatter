@@ -1,4 +1,5 @@
 import os
+import warnings
 import argparse
 import xml.etree.ElementTree as ET
 import csv
@@ -8,12 +9,20 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-f", "--folder_path", help="The folder containing the XML files.", required=True)
 parser.add_argument("-o", "--output_file", help="The CSV file where all data will be stored.", required=True)
 parser.add_argument("-e", "--extension", help="Specify the extension of the files that need to be flattened.")
+parser.add_argument("--suppress-warnings", action="store_true", help="Suppress warning messages.")
 args = parser.parse_args()
 
 # Get all arguments
 folder_path = args.folder_path
 output_file = args.output_file
 extension = args.extension
+suppress_warnings = args.suppress_warnings
+
+# Suppress warnings if the flag is set
+if suppress_warnings:
+    warnings.filterwarnings("ignore")
+else:
+    warnings.simplefilter("always")
 
 # Check if all required arguments were given
 if folder_path is None or output_file is None:
@@ -56,10 +65,10 @@ for file_name in files:
             row['FILENAME'] = root[0][2][0][1][0].attrib['Path']
 
         else:
-            print(file_name, ': Renditions are either 0 or too many.')
+            warnings.warn(f"{file_name}: Renditions are either 0 or too many.")
 
     else:
-        print(file_name, ': Versions are either 0 or too many.')
+        warnings.warn(f"{file_name}: Versions are either 0 or too many.")
 
     rows.append(row)
 

@@ -15,3 +15,4 @@ py .\XMLFlatter.py
 - -o, --output_path : The CSV file where all data will be stored.
 #### Optional:
 - -e, --extension : Specify the extension of the files that need to be flattened.
+- --suppress-warnings
